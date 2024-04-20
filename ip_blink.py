@@ -2,12 +2,6 @@ import subprocess
 import time
 import sys
 
-sys.stdout = open("/home/pi/log.txt", "a")
-sys.stderr = open("/home/pi/error.txt", "a")
-
-sys.stdout.write("########## STARTING ##########\n")
-sys.stderr.write("########## STARTING ##########\n")
-
 dot = 0
 dash = 0
 bc = 0
