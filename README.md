@@ -19,5 +19,6 @@ However, encoding the IP address in this way allows the IP address to be
 immediately identified without requiring any conversions or code tables.
 
 ## Execution
-The script must be run as root. You can also add `sudo /path/to/file/ip_blink.py &`
-to `/etc/rc.local` to run the script automatically on boot.
+The script must be run as root. You can also add 
+`sudo python3 /path/to/file/ip_blink.py &` to `/etc/rc.local` to run the 
+script automatically on boot.
